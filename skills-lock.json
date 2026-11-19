@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "skills": {
+    "rslib-best-practices": {
+      "source": "rstackjs/agent-skills",
+      "commit": "a4d00cf3daabbd4cce7f2a11900a6bda50fbb11d",
+      "sourceType": "github",
+      "skillPath": "skills/rslib-best-practices/SKILL.md",
+      "computedHash": "be4d50388c97224108f8902a030d649afd77572087ba467a71b938440cd03afe",
+      "installMode": "copy"
+    },
+    "rstest-best-practices": {
+      "source": "rstackjs/agent-skills",
+      "commit": "a4d00cf3daabbd4cce7f2a11900a6bda50fbb11d",
+      "sourceType": "github",
+      "skillPath": "skills/rstest-best-practices/SKILL.md",
+      "computedHash": "f36e4270323b9dd7153d59040354fd2feb13c3fb59eac5a3e572fe04fdff8ffd",
+      "installMode": "copy"
+    }
+  }
+}

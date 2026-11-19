@@ -1,0 +1,41 @@
+{
+	"name": "@relaxwork/verto",
+	"version": "1.0.1",
+	"description": "Framework-agnostic FreeSWITCH Verto JSON-RPC and WebRTC client",
+	"type": "module",
+	"author": {
+		"name": "suzhenghui",
+		"email": "suzhenghui2003@qq.com"
+	},
+	"exports": {
+		".": {
+			"types": "./dist/index.d.ts",
+			"default": "./dist/index.js"
+		}
+	},
+	"types": "./dist/index.d.ts",
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"build": "rslib",
+		"dev": "rslib --watch",
+		"lint": "rslint",
+		"test": "rstest",
+		"test:watch": "rstest --watch"
+	},
+	"devDependencies": {
+		"@rslib/core": "^1.0.7",
+		"@rslint/core": "^0.9.5",
+		"@rstest/adapter-rslib": "^0.12.6",
+		"@rstest/core": "^0.12.6",
+		"@types/node": "^26.6.6",
+		"typescript": "^7.0.2"
+	},
+	"engines": {
+		"node": "^20.19.0 || >=22.12.0"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
+}

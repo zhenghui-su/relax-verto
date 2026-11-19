@@ -1,0 +1,2 @@
+minimumReleaseAgeExclude:
+  - '@relaxwork/verto@1.0.0'
