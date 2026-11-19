@@ -1,6 +1,6 @@
 {
 	"name": "@relaxwork/verto",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Framework-agnostic FreeSWITCH Verto JSON-RPC and WebRTC client",
 	"type": "module",
 	"author": {
@@ -17,6 +17,20 @@
 	"files": [
 		"dist"
 	],
+	"keywords": [
+		"freeswitch",
+		"verto",
+		"json-rpc",
+		"rtc"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/zhenghui-su/relax-verto.git"
+	},
+	"homepage": "https://github.com/zhenghui-su/relax-verto",
+	"bugs": {
+		"url": "https://github.com/zhenghui-su/relax-verto/issues"
+	},
 	"scripts": {
 		"build": "rslib",
 		"dev": "rslib --watch",
